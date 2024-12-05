@@ -55,41 +55,52 @@ align-items: center;
 
 
 /* header-starts-here */
+.header-container{
+    background-image: url(all\ resources/Group-14.png);
+}
+
 #header-gradient-text{
     font-size: 95px;
     font-weight: 800;
     background: linear-gradient(180deg, rgb(249,72,178),rgb(135,88,241));
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   
+    color: transparent;
 }
 
 .header-main{
-border: 2px solid red;
 display: flex;
 max-width: 1000px;
 margin: 0 auto;
 justify-content: space-between;
 align-items: center;
+padding: 50px 0;
 }
 
 .header-left{
-border: 2px solid green;
 width: 50%;
 }
 .header-right{
-    border: 2px solid blue;
     width: 50%;
 }
 .header-right img{
     width: 100%;
 }
 
-
+.header-info{
+    font-size: 20px; 
+    font-weight: 500; 
+    color: #534c64;
+    padding: 30px 0;
+}
 .header-btn1,.header-btn2{
 padding: 20px 40px;
+border: none;
+border-radius: 48px;
+font-size: 20px;
+font-weight: 600;
+color: white;
 }
+
 
 .header-btn1{
     background-color: #FF42A7;
@@ -97,4 +108,5 @@ padding: 20px 40px;
 
 .header-btn2{
     background-color: #4EC5F7;
+    margin-left: 24px;
 }
