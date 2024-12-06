@@ -77,4 +77,20 @@
         .hero-slogan{
             font-size: 22px;
         }
+        .games-gallery{
+            padding: 60px 0;
+        }
+        .games-gallery-title{
+            font-size: 32px;
+        }
+        .games-gallery-menu{
+            flex-direction: column;
+            padding: 20px 100px;
+            gap: 50px;
+            text-align: center;
+        }
+        .game-menu img{
+            width: 100%;
+        }
+        
 }
