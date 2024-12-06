@@ -15,6 +15,7 @@
             }
         .header-main{
             flex-direction: column-reverse;
+            padding: 0;
             }
         .header-right{
             width: 75%;
@@ -35,16 +36,45 @@
             text-align: center;
         }
         .header-btn1,.header-btn2{
-            padding: 14px 28px;
-            font-size: 14px;
+            padding: 10px 20px;
+            font-size: 12px;
             }
         .header-btn2{
             margin-left: 18px;
         }
         .header-info{
-            font-size: 14px; 
+            font-size: 16px; 
             font-weight: 500; 
             color: #534c64;
             padding: 25px 0 20px 0;
+        }
+        .hero-section{
+            flex-direction: column;
+            padding: 30px 0;
+            text-align: center;
+            gap: 50px;
+            justify-content: center;
+            align-items:center;
+        }
+        .hero-left{
+            width: 90%;
+        }
+        .hero-right{
+            width: 80%;
+        }
+        .hero-head-text{
+            font-size: 30px;
+            text-align: center;
+        }
+        .hero-para-text{
+            font-size: 14px;
+            padding: 18px 0;
+            line-height: 20px;
+        }
+        .hero-motto{
+            font-size: 10px;
+        }
+        .hero-slogan{
+            font-size: 22px;
         }
 }

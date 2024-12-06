@@ -157,3 +157,52 @@ color: white;
 .hero-right{
     width: 45%;
 }
+.hero-motto{
+    font-size: 20px; 
+    font-weight: 500; 
+    color: #534C64; 
+    padding-top: 24px;
+}
+.hero-slogan{
+    font-size: 26px; 
+    font-weight: 700; 
+    color: #534C64; 
+    padding-top: 5px;
+}
+
+
+
+/* games-gallery-starts-here */
+
+.games-gallery-title{
+    font-size: 48px;
+    text-align: center;
+}
+
+.games-gallery-menu{
+    display: grid;
+    margin: 0 auto;
+    max-width: 1000px;
+    gap: 30px;
+    border: 2px solid red;
+    grid-template-areas: "a b c d";
+    padding: 40px;
+    
+}
+
+.game-menu img{
+    width: 100%;
+}
+
+.games-menu1{
+    grid-area: a;
+}
+.games-menu2{
+    grid-area: b;
+}
+.games-menu3{
+    grid-area: c;
+}
+.games-menu4{
+    grid-area: d;
+}
