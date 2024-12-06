@@ -17,11 +17,10 @@
     box-shadow: 0 6px 20px rgba(0,0,0,0.137);
 }
 .nav-main{
-border: 1px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 36px;
+padding: 36px 0;
 max-width: 1000px;
 margin: 0 auto;
 }
@@ -62,8 +61,13 @@ align-items: center;
 /* header-starts-here */
 .header-container{
     background-image: url(all\ resources/Group-14.png);
+    background-repeat: no-repeat;
 }
-
+.header-title{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+}
 .header-text{
     font-size: 95px;
     font-weight: 800;
