@@ -92,5 +92,30 @@
         .game-menu img{
             width: 100%;
         }
-        
+
+     .watch-now{
+
+        top: 40%;
+        left: 35%;
+    
+    }
+/* play-instantly-starts-here */
+    .play-instantly-main{
+       flex-direction: column;
+       width: 70%;  
+       text-align: center;
+      }
+
+      .play-instantly-left{
+        width: 100%;
+      }
+      .play-instantly-right{
+        width: 70%;
+      }
+      .play-instantly-right .play-instantly-right-overlap{
+        width: 140px;
+        height: 155px;
+        bottom: -50px;
+        left: -80px;
+      }
 }

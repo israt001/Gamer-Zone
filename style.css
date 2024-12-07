@@ -195,4 +195,65 @@ color: white;
 
 .game-menu{
 flex: 1;
+position: relative;
+}
+
+ .watch-now{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    display: none;
+   
+
+}
+
+.watch-now span{
+    font-size: 30px;
+    color: white;
+
+} 
+.watch-now p{
+    font-weight: 600; 
+    color: white; 
+    margin-top: 6px;
+
+} 
+
+.game-menu img:hover+ .watch-now{
+    display: block;   
+}
+
+.game-menu img:hover{
+    filter:brightness(50%);
+}
+
+
+/* play-instantly-starts-here */
+.play-instant-container{
+    background-color: rgba(255, 228, 196, 0.066);
+}
+.play-instantly-main{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto 100px;
+  align-items: center;
+  justify-content: space-between;  
+}
+.play-instantly-left{
+    width: 40%;
+}
+.play-instantly-right{
+    width: 40%;
+    position: relative;
+}
+.play-instantly-right img{
+    width: 100%;
+}
+.play-instantly-right .play-instantly-right-overlap{
+    position: absolute;
+    width: 200px;
+    height: 230px;
+    bottom: -50px;
+    left: -80px;
 }
